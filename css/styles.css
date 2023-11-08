@@ -7,12 +7,16 @@
 
     --Violet: hsl(257, 40%, 49%);
     --Soft-Magenta: hsl(300, 69%, 71%);
+    --white: hsl(0, 0%, 100%);
 
 }
 
 /* font-family: 'Open Sans', sans-serif; 400 */
 /* font-family: 'Poppins', sans-serif; 400, 600 */
 
+
+
+/* General Configuration */
 
 * {
     margin: 0;
@@ -27,7 +31,7 @@ html {
 body {
     background-color: var(--Violet);
     background-image: url(../images/bg-mobile.svg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 
     display: flex;
@@ -42,4 +46,57 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+
+/* Header & Image configuration */
+
+header {
+    margin: 3rem 0 0 2.5rem;
+}
+header img{
+    width: 12rem;
+}
+
+.image img {
+    margin-top: 4rem;
+    width: 30rem;
+    height: 20rem;
+}
+
+
+/* Content Design */
+
+.content {
+    font-family: 'Poppins', sans-serif;
+    color: var(--white);
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.content-header {
+    font-size: 1.4rem;
+    line-height: 3rem;
+}
+
+.content-body {
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    line-height: 2rem;
+    width: 26.5rem;
+}
+
+.button-content {
+    margin-top: 3rem;
+}
+
+.button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: var(--white);
+    color: var(--Violet);
+    padding: 0.9rem 6rem 0.9rem 6rem;
+    border-radius: 2rem;
 }
