@@ -52,14 +52,14 @@ main {
 /* Header & Image configuration */
 
 header {
-    margin: 3rem 0 0 2.5rem;
+    margin: 2rem 0 0 2.5rem;
 }
 header img{
-    width: 12rem;
+    width: 10rem;
 }
 
 .image img {
-    margin-top: 4rem;
+    margin-top: 3rem;
     width: 30rem;
     height: 20rem;
 }
@@ -71,7 +71,7 @@ header img{
     font-family: 'Poppins', sans-serif;
     color: var(--white);
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 3rem;
 }
 
 .content-header {
@@ -81,14 +81,11 @@ header img{
 
 .content-body {
     font-size: 1.3rem;
-    margin-top: 1.5rem;
+    margin: 1.5rem 0 4rem 0;
     line-height: 2rem;
     width: 26.5rem;
 }
 
-.button-content {
-    margin-top: 3rem;
-}
 
 .button {
     font-family: 'Open Sans', sans-serif;
@@ -97,6 +94,33 @@ header img{
     text-decoration: none;
     background-color: var(--white);
     color: var(--Violet);
-    padding: 0.9rem 6rem 0.9rem 6rem;
+    padding: 1.25rem 7.75rem 1.25rem 7.75rem;
     border-radius: 2rem;
+}
+
+.button:hover {
+    background-color: var(--Soft-Magenta);
+    color: var(--white);
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+}
+
+.icons svg {
+    margin: 0 0.5rem 0 0.5rem;
+    padding: 1rem;
+    width: 3.75rem;
+    height: 3.75rem;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+}
+
+.icons a svg:hover {
+    border: 2px solid var(--Soft-Magenta);
+    fill: var(--Soft-Magenta);
 }
