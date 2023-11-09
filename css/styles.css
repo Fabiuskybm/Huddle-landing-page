@@ -51,10 +51,8 @@ main {
 
 /* Header & Image configuration */
 
-header {
+header img {
     margin: 2rem 0 0 2.5rem;
-}
-header img{
     width: 10rem;
 }
 
@@ -87,6 +85,8 @@ header img{
 }
 
 
+/* Button Design */
+
 .button {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.3rem;
@@ -103,6 +103,8 @@ header img{
     color: var(--white);
 }
 
+
+/* Icons Design */
 
 footer {
     display: flex;
@@ -123,4 +125,22 @@ footer {
 .icons a svg:hover {
     border: 2px solid var(--Soft-Magenta);
     fill: var(--Soft-Magenta);
+}
+
+
+/* DESKTOP DESIGN */
+
+@media (min-width: 1440px) {
+
+    main {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer {
+        justify-content: end;
+        margin: 32.5rem 7.5rem 0 0;
+    }
+
 }
